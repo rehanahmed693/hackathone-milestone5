@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(221, 221, 238);
+}
+.container {
+  border: 1px solid black;
+  justify-content: center;
+  width: 500px;
+  height: 800px;
+  background-color: rgb(141, 188, 143);
+}
+
+h1 {
+  padding: 20px 0px;
+  color: white;
+}
+h2 {
+  margin-top: 10px;
+
+  box-shadow: 2px 2px 1px;
+}
+fieldset {
+  border: 1px solid white;
+}
+
+textarea {
+  width: 480px;
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  padding: 5px;
+}
+label {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+}
+.person-detail input {
+  padding: 2px;
+  margin-top: 4px;
+  font-size: 16px;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#btn {
+  padding: 10px;
+  font-weight: 600;
+  background-color: rgb(73, 128, 128);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+#btn:hover {
+  color: rgb(191, 213, 233);
+  font-weight: 900;
+}
+
+#generated-form {
+  width: 500px;
+
+  border: 1px solid black;
+  background-color: rgb(141, 188, 143);
+  color: black;
+}
+#generated-form h2 {
+  padding: 10px;
+  font-size: 28px;
+}
+#generated-form p {
+  margin: 5px;
+  color: rgb(59, 54, 54);
+}
+#buttons-container button {
+  background-color: rgb(73, 128, 128);
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}

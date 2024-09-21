@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shareable Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <h1>My Shareable Resume Builder</h1>
+        <form id="my-form">
+          <fieldset class="person-detail">
+            <h2>Personal Detail</h2>
+            <label>Resume URL</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Username"
+              required
+              contenteditable="true"
+            />
+
+            <label>Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Name"
+              required
+              contenteditable="true"
+            />
+
+            <label>Contact</label>
+            <input
+              type="tel"
+              id="contact"
+              placeholder="Enter Contact"
+              required
+              contenteditable="true"
+            />
+
+            <label>Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Email"
+              required
+              contenteditable="true"
+            />
+          </fieldset>
+
+          <fieldset>
+            <h2>Education</h2>
+            <textarea
+              id="education"
+              rows="4"
+              required
+              contenteditable="true"
+            ></textarea>
+          </fieldset>
+
+          <fieldset>
+            <h2>Experience</h2>
+
+            <textarea
+              id="experience"
+              rows="4"
+              required
+              contenteditable="true"
+            ></textarea>
+          </fieldset>
+
+          <fieldset>
+            <h2>Skills</h2>
+            <textarea
+              id="skills"
+              rows="4"
+              required
+              contenteditable="true"
+            ></textarea>
+          </fieldset>
+
+          <button type="submit" id="btn">Click Here To Generate Resume</button>
+        </form>
+      </div>
+      <br />
+
+      <div id="generated-form" contenteditable="true"></div>
+    </center>
+
+    <script src="script.js"></script>
+  </body>
+</html>
